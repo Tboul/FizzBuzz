@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Javascrip Basics</title>
+	<style>
+		div {
+			background-color: darkgray;
+			padding: 10px;
+			width: 400px;
+			height: auto;
+			border-bottom: solid;
+			align-content: right;
+			word-break: keep-all;
+		}
+
+		p {
+			display: inline;
+			padding-top: 10px;
+		}
+
+		#chalange {
+			background-color: rgba(128, 128, 128, 0.39);
+			color: coral;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		#btn {
+			background: darkgreen;
+			color: white;
+		}
+
+		.lbl {
+			color: blue;
+			display: inline;
+			padding-left: 10px;
+
+		}
+
+		#num1 {
+			padding-left: 30px;
+			margin-left: 26px;
+			cursor: pointer;
+		}
+
+		#num2 {
+			padding-left: 30px;
+			margin-left: 5px;
+			cursor: pointer;
+		}
+
+		#sld {
+			align-items: right;
+			display: inline-table
+		}
+	</style>
+
+</head>
+
+<body>
+	<h1>FizzBuzz Chalenge</h1>
+	<div id="chalange">
+		<h4>The chaleng: write a program that lists the numbers from 1 to 100 in accending order.<br>
+			If the number is
+			devidable by the first devider the output should read "Fizz", if it is devidable by the second devider it
+			shold read "Buzz".<br>Finally, if the number
+			is devidable by both deviders it should read "BuzzFizz".</h4>
+
+	</div>
+	<div id="input">
+
+		<h3>Insert Divider numbers</h3>
+		<span id="sld">
+			<h3 class="lbl" id="1st">Select first number </h3>
+			<input type="range" id="num1" min="1" max="10">
+			<h2 id="num1lbl" class="lbl"></h2>
+			<br>
+			<h3 class="lbl">Select second number </h3>
+			<input type="range" id="num2" min="1" max="10">
+			<h2 id="num2lbl" class="lbl"></h2>
+		</span>
+		<br>
+		<br>
+		<button id="btn">Run</button>
+		<h3>Result</h3>
+	</div>
+	<div id="text">
+
+
+
+
+	</div>
+	<!----------javascript------------->
+	<script src="./app.js"></script>
+
+
+</body>
+
+</html>
