@@ -1,6 +1,7 @@
 # FizzBuzz
 
 My version for the famous challenge
+using method B.
 
 # Screen shot
 
